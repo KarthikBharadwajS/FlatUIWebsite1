@@ -1,0 +1,54 @@
+.footer {
+    background-color: $color-grey-dark-3;
+    padding: 10rem 0;
+    font-size: 1.4rem;
+    color: $color-white;
+    position: relative;
+
+    &__logo-box {
+        position: absolute;
+        top:5rem;
+        left: 40%;
+    }
+
+    &__logo {
+        width: 10rem;
+        height: auto;
+    }
+
+    &__navigation {
+        width: 70%;
+        padding: 1rem;
+        margin: 3rem -3rem;
+    }
+
+    &__list {
+        list-style: none;
+        border-top: 1px solid $color-white;
+    }
+
+    &__item {
+        display: inline-block;
+        
+        &:not(:last-child) {
+            margin-right: 1rem;
+        }
+
+        &:hover,
+        &:active {
+            color: $color-blue-light;
+        }
+    }
+
+    &__link {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    &__copyright {
+        font-weight: 400;
+        text-align: justify;
+        margin-top: 3.5rem;
+        margin-right: -3rem; 
+    }
+}

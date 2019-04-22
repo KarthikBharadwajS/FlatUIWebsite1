@@ -1,0 +1,12 @@
+@mixin clearfix {
+    &::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+@mixin grey-section {
+    background-color: $color-grey-light-1;
+    margin-top: -20vh;
+}
